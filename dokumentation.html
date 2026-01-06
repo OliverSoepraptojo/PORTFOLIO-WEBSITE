@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="da">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Oxanium:wght@300;400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="css/style.css" />
+    <title>Portfolio</title>
+  </head>
+
+  <body>
+    <header class="site-header">
+      <a href="index.html" class="logo-link">
+        <img
+          src="images/OLIVER SOEPRAPTOJO titel.png"
+          alt="Oliver Soepraptojo logo"
+          class="logo"
+        />
+      </a>
+
+      <button class="burger" aria-label="Åbn menu">☰</button>
+
+      <nav class="nav">
+        <a href="index.html">Forside</a>
+        <a href="projekter.html">Portfolio</a>
+        <a href="om-mig.html">Om mig</a>
+      </nav>
+    </header>
+
+    <main>
+      <h1 class="fade-in fade-delay-1">Læring</h1>
+
+      <section class="doc-card fade-in fade-delay-2">
+        <h2>Introduktion</h2>
+        <div class="doc-content">
+          <p>
+            Denne lærings-side har til formål at redegøre for processen,
+            overvejelserne og de tekniske samt designmæssige valg bag mit
+            portfolio-website, som er udviklet som en del af 1. semester på
+            multimediedesign. Siden beskriver, hvordan jeg har arbejdet med
+            struktur, design, kode, responsivitet og tilgængelighed.
+          </p>
+        </div>
+      </section>
+
+      <section class="doc-card fade-in fade-delay-2">
+        <h2>Struktur & navigation</h2>
+        <div class="doc-content">
+          <p>
+            Portfolio-websitet er opbygget med en klar og enkel struktur
+            bestående af en forside, en portfolio-side, en “Om mig”-side samt en
+            dokumentationsside. Navigationen er placeret i en burger-menu, som
+            er valgt for at sikre et overskueligt layout på mobile enheder.
+          </p>
+          <p>
+            På portfolio-siden præsenteres semestrets temaer i en horisontal
+            slider, hvor brugeren kan klikke på et tema for at få vist
+            indholdet. Denne løsning gør det muligt at bevare overblikket og
+            samtidig give plads til visuelle elementer.
+          </p>
+        </div>
+      </section>
+
+      <section class="doc-card fade-in fade-delay-2">
+        <h2>Designvalg</h2>
+        <div class="doc-content">
+          <p>
+            Jeg har valgt et dark theme som det gennemgående visuelle udtryk for
+            sitet. Valget er truffet for at skabe et moderne og roligt design,
+            hvor fokus er på indhold og billeder. For at sikre god læsbarhed
+            oven på baggrundsbilledet har jeg anvendt et semi-transparent mørkt
+            overlay.
+          </p>
+          <p>
+            Typografien er baseret på skrifttypen Oxanium, som understøtter et
+            moderne og digitalt udtryk. Der er arbejdet med tydeligt hierarki
+            mellem overskrifter, brødtekst og fremhævet tekst for at gøre
+            indholdet nemt at aflæse.
+          </p>
+        </div>
+      </section>
+
+      <section class="doc-card fade-in fade-delay-2">
+        <h2>Mobile-first & responsivitet</h2>
+        <div class="doc-content">
+          <p>
+            Websitet er udviklet ud fra et mobile-first princip. Det betyder, at
+            layout og funktionalitet først er designet og implementeret til
+            mobile enheder, hvorefter der er tilføjet media queries til større
+            skærme.
+          </p>
+          <p>
+            På mobil vises indholdet i én kolonne, navigationen er skjult i en
+            burger-menu, og footeren er opbygget vertikalt. På desktop ændres
+            footeren til et layout med tre kolonner, så kontaktinformation, logo
+            og genveje tydeligt adskilles.
+          </p>
+        </div>
+      </section>
+
+      <section class="doc-card fade-in fade-delay-2">
+        <h2>Teknologi & kode</h2>
+        <div class="doc-content">
+          <p>
+            Websitet er opbygget med HTML, CSS og JavaScript. HTML er anvendt
+            til at skabe en semantisk korrekt struktur med brug af blandt andet
+            header, nav, main, section og footer. CSS er brugt til styling,
+            layout, animationer og responsivitet ved hjælp af flexbox, media
+            queries og keyframes.
+          </p>
+          <p>
+            JavaScript er anvendt til interaktive elementer såsom burger-menuen
+            og visning af de enkelte temaer på portfolio-siden.
+          </p>
+        </div>
+      </section>
+
+      <section class="doc-card fade-in fade-delay-2">
+        <h2>Tilgængelighed</h2>
+        <div class="doc-content">
+          <p>
+            Der er under udviklingen taget hensyn til tilgængelighed. Alle
+            billeder har beskrivende alt-tekster, og der er arbejdet med
+            tilstrækkelig kontrast mellem tekst og baggrund. Derudover
+            respekterer websitet brugerens systemindstilling for reduceret
+            bevægelse ved hjælp af prefers-reduced-motion, så animationer
+            deaktiveres for brugere, der ønsker dette.
+          </p>
+        </div>
+      </section>
+
+      <section class="doc-card fade-in fade-delay-2">
+        <h2>Læring & refleksion</h2>
+
+        <div class="doc-content">
+          <p>
+            Gennem arbejdet med dette portfolio-website har jeg opnået en bedre
+            forståelse for mobile-first design, strukturering af HTML og CSS
+            samt samspillet mellem design og funktionalitet. Jeg har især lært
+            vigtigheden af at holde koden overskuelig og genbrugelig samt at
+            arbejde systematisk med layout og responsivitet.
+          </p>
+          <p>
+            Hvis jeg skulle videreudvikle projektet, ville jeg arbejde mere med
+            desktop-layout, animationer og eventuelt udvide
+            JavaScript-funktionaliteten for at skabe endnu mere interaktion.
+          </p>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="footer-content">
+        <div class="footer-section">
+          <h3>Kontakt</h3>
+          <p>
+            Email:
+            <a href="mailto:Oliver@soepraptojo.dk">Oliver@soepraptojo.dk</a>
+          </p>
+          <p>Telefon: <a href="tel:+4526802289">+45 26 80 22 89</a></p>
+          <p>
+            <a
+              href="https://www.linkedin.com/in/oliver-rehder-soepraptojo-aa0872332/"
+              target="_blank"
+              rel="noopener"
+            >
+              LinkedIn
+            </a>
+          </p>
+        </div>
+
+        <div class="footer-section footer-logo">
+          <img
+            src="images/OLIVER SOEPRAPTOJO titel.png"
+            alt="Oliver Soepraptojo logo"
+          />
+        </div>
+
+        <div class="footer-section">
+          <h3>Genveje</h3>
+          <a href="index.html">Forside</a>
+          <a href="projekter.html">Portfolio</a>
+          <a href="om-mig.html">Om mig</a>
+          <a href="dokumentation.html">Læring</a>
+        </div>
+      </div>
+    </footer>
+
+    <script src="js/script.js"></script>
+  </body>
+</html>
